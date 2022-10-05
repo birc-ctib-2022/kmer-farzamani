@@ -44,7 +44,7 @@ def count_kmers(x: str, k: int) -> dict[str, int]:
 
     FIXME: do you want more tests here?
     >>> count_kmers('agtagtag', 4)
-    {'agta':2, 'gtag':2, 'tagt':1}
+    {'agta': 2, 'gtag': 2, 'tagt': 1}
     """
     out = {}
     
